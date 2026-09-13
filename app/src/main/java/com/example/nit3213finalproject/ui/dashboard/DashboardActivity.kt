@@ -52,8 +52,7 @@ class DashboardActivity : AppCompatActivity() {
 
         } else {
 
-            // if API Login become travel
-            // here became loadDashboard("travel") automatic
+            // Load dashboard using the keypass returned from login
             viewModel.loadDashboard(keypass)
         }
     }

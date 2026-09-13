@@ -75,12 +75,13 @@ class DetailsActivity : AppCompatActivity() {
     private fun displayEntity(
         entity: Map<*, *>
     ) {
-
+        binding.btnBackDashboard.setOnClickListener {
+            finish()
+        }
         binding.detailsContainer
             .removeAllViews()
 
-        // Details show every field
-        // รวม description
+        // Display all fields, including the description
         entity.forEach { entry ->
 
             val key =

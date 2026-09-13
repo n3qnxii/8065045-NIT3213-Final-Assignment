@@ -5,31 +5,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="4dp"
-    android:layout_marginEnd="4dp"
-    android:layout_marginTop="6dp"
-    android:layout_marginBottom="6dp"
+    android:layout_marginBottom="12dp"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
-    app:cardCornerRadius="14dp"
-    app:cardElevation="2dp"
-    app:cardBackgroundColor="#F6EAF8">
+    app:cardCornerRadius="16dp"
+    app:cardElevation="1dp"
+    app:cardBackgroundColor="#FFFFFF">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="18dp">
 
         <TextView
             android:id="@+id/tvEntityTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entity"
+            android:text="Entity Title"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="#171A2B" />
+            android:textColor="#1F2937" />
 
         <TextView
             android:id="@+id/tvEntitySummary"
@@ -38,7 +35,8 @@
             android:layout_marginTop="8dp"
             android:text="Summary"
             android:textSize="14sp"
-            android:textColor="#4B4F5C" />
+            android:textColor="#4B5563"
+            android:lineSpacingExtra="2dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +45,7 @@
             android:text="View details  ›"
             android:textSize="13sp"
             android:textStyle="bold"
-            android:textColor="#5B42D1" />
+            android:textColor="#6D5BD0" />
 
     </LinearLayout>
 
